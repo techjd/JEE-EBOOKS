@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "860738957956",
+    "firebase_url": "https://jeeebooks.firebaseio.com",
+    "project_id": "jeeebooks",
+    "storage_bucket": "jeeebooks.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860738957956:android:1448807b70349597",
+        "android_client_info": {
+          "package_name": "jee.techjd.jeeebooks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860738957956-mb00mkv4mf9jc6nlfat51bu8ds5cu0fq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jee.techjd.jeeebooks",
+            "certificate_hash": "39a4d2f22a2d7fe5166b991bf987c90ba85baabc"
+          }
+        },
+        {
+          "client_id": "860738957956-rdnntu8jodp0iii2rpu6n4ivao0fvfn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfNDdFch6mR3UogkC5iD1gleLANi7qQyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860738957956-rdnntu8jodp0iii2rpu6n4ivao0fvfn6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

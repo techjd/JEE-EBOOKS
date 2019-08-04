@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jee.techjd.jeeebooks">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" android:protectionLevel="signature"/>
+    <permission android:name="android.permission.REAL_GET_TASKS" android:protectionLevel="signature"/>
+    <permission android:name="android.permission.GET_TASKS" android:protectionLevel="signature"/>
+
+
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="jee.techjd.jeeebooks.Main17Activity"
+            android:parentActivityName="jee.techjd.jeeebooks.MainActivity"></activity>
+        <activity android:name="jee.techjd.jeeebooks.Main16Activity"
+            android:parentActivityName="jee.techjd.jeeebooks.Main10Activity"/>
+        <activity android:name="jee.techjd.jeeebooks.Main15Activity"
+            android:parentActivityName="jee.techjd.jeeebooks.Main10Activity"/>
+        <activity android:name="jee.techjd.jeeebooks.Main14Activity"
+            android:parentActivityName="jee.techjd.jeeebooks.Main10Activity"/>
+        <activity android:name="jee.techjd.jeeebooks.Main13Activity"
+            android:parentActivityName="jee.techjd.jeeebooks.Main9Activity"/>
+        <activity android:name="jee.techjd.jeeebooks.Main12Activity"
+            android:parentActivityName="jee.techjd.jeeebooks.Main9Activity"/>
+        <activity android:name="jee.techjd.jeeebooks.Main11Activity"
+            android:parentActivityName="jee.techjd.jeeebooks.Main9Activity"/>
+        <activity
+            android:name="jee.techjd.jeeebooks.Main10Activity"
+            android:parentActivityName="jee.techjd.jeeebooks.Main8Activity" />
+        <activity
+            android:name="jee.techjd.jeeebooks.Main9Activity"
+            android:parentActivityName="jee.techjd.jeeebooks.Main8Activity" />
+        <activity
+            android:name="jee.techjd.jeeebooks.Main8Activity"
+            android:parentActivityName="jee.techjd.jeeebooks.MainActivity" />
+        <activity
+            android:name="jee.techjd.jeeebooks.Main7Activity"
+            android:parentActivityName="jee.techjd.jeeebooks.Main5Activity" />
+        <activity
+            android:name="jee.techjd.jeeebooks.Main6Activity"
+            android:parentActivityName="jee.techjd.jeeebooks.Main5Activity" />
+        <activity
+            android:name="jee.techjd.jeeebooks.Main5Activity"
+            android:parentActivityName="jee.techjd.jeeebooks.MainActivity" />
+        <activity
+            android:name="jee.techjd.jeeebooks.Main4Activity"
+            android:parentActivityName="jee.techjd.jeeebooks.MainActivity" />
+        <activity
+            android:name="jee.techjd.jeeebooks.Main3Activity"
+            android:parentActivityName="jee.techjd.jeeebooks.MainActivity" />
+        <activity
+            android:name="jee.techjd.jeeebooks.Main2Activity"
+            android:parentActivityName="jee.techjd.jeeebooks.MainActivity" />
+        <activity android:name="jee.techjd.jeeebooks.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
